@@ -1,0 +1,94 @@
+{
+    "events": [
+      {
+        "id": "e1",
+        "title": "Programming for everyone",
+        "description": "Everyone can learn to code! Yes, everyone! In this live event, we are going to go through all the key basics and get you started with programming as well.",
+        "location": "Somestreet 25, 12345 San Somewhereo",
+        "date": "2021-05-12",
+        "image": "https://images.unsplash.com/photo-1648737119422-2680a7e39089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8Y29sbGFib3JhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "isFeatured": false
+      },
+      {
+        "id": "e2",
+        "title": "Networking for introverts",
+        "description": "We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
+        "location": "New Wall Street 5, 98765 New Work",
+        "date": "2021-05-30",
+        "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGFib3JhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "isFeatured": true
+      },
+      {
+        "id": "e3",
+        "title": "Networking for extroverts",
+        "description": "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+        "location": "My Street 12, 10115 Broke City",
+        "date": "2022-04-10",
+        "image": "https://images.unsplash.com/photo-1590402494587-44b71d7772f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29sbGFib3JhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "isFeatured": true
+      },
+      {
+        "id": "e4",
+        "title": "Idea Factory Deep Talk - Morning",
+        "description": "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+        "location": "My Street 12, 10115 Broke City",
+        "date": "2022-05-22",
+        "image": "https://images.unsplash.com/photo-1648737154448-ccf0cafae1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8OHx8Y29sbGFib3JhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "isFeatured": true
+      },
+      {
+        "id": "e5",
+        "title": "Idea Factory Deep Talk - Afternoon",
+        "description": "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+        "location": "My Street 12, 10115 Broke City",
+        "date": "2022-06-10",
+        "image": "https://images.unsplash.com/photo-1569406125624-98ee19b01d4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbGxhYm9yYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "isFeatured": true
+      },
+      {
+        "id": "e6",
+        "title": "Idea Factory Deep Talk - Evening",
+        "description": "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+        "location": "My Street 12, 10115 Broke City",
+        "date": "2022-07-10",
+        "image": "https://images.unsplash.com/photo-1585399058947-f68f9db58e5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbGxhYm9yYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "isFeatured": true
+      },
+      {
+        "id": "e7",
+        "title": "Idea Factory Casual Talks - Morning",
+        "description": "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+        "location": "My Street 12, 10115 Broke City",
+        "date": "2022-08-10",
+        "image": "https://images.unsplash.com/photo-1648737964978-597655dd82b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MTV8fGNvbGxhYm9yYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "isFeatured": true
+      },
+      {
+        "id": "e8",
+        "title": "Idea Factory Deep Talk - Afternoon",
+        "description": "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+        "location": "My Street 12, 10115 Broke City",
+        "date": "2022-09-10",
+        "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNvbGxhYm9yYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "isFeatured": true
+      },
+      {
+        "id": "e9",
+        "title": "Idea Factory Deep Talk - Evening",
+        "description": "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+        "location": "My Street 12, 10115 Broke City",
+        "date": "2022-10-10",
+        "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGNvbGxhYm9yYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "isFeatured": true
+      },
+      {
+        "id": "e10",
+        "title": "Live, Laugh and Work Hard!!",
+        "description": "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+        "location": "My Street 12, 10115 Broke City",
+        "date": "2022-11-10",
+        "image": "https://images.unsplash.com/photo-1550071593-fd1bdaf1f93c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGNvbGxhYm9yYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "isFeatured": true
+      }
+    ]
+  }
