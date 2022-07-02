@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { useRouter } from "next/router";
+import Head from "next/head";
 
 import { getFilteredEvents } from "../../helpers/api-utils";
 import EventList from "../../components/events/event-list";
@@ -11,6 +11,13 @@ function FilteredEventsPage(props) {
   if (props.hasError) {
     return (
       <Fragment>
+        <Head>
+          <title>Filtered events page</title>
+          <meta
+            name="description"
+            content="Details of all the filtered events by the user"
+          />
+        </Head>
         <ErrorAlert>
           <p>Invalid filter. Please adjust your values!</p>
         </ErrorAlert>
@@ -24,6 +31,13 @@ function FilteredEventsPage(props) {
   if (!props.events || props.events.length === 0) {
     return (
       <Fragment>
+        <Head>
+          <title>Filtered events page</title>
+          <meta
+            name="description"
+            content="Details of all the filtered events by the user"
+          />
+        </Head>
         <ErrorAlert>
           <p>No events found for the chosen filter!</p>
         </ErrorAlert>
@@ -38,6 +52,13 @@ function FilteredEventsPage(props) {
 
   return (
     <Fragment>
+      <Head>
+        <title>Filtered events page</title>
+        <meta
+          name="description"
+          content="Details of all the filtered events by the user"
+        />
+      </Head>
       <ResultsTitle date={date} />
       <EventList items={props.events} />
     </Fragment>

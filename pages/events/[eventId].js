@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Head from "next/head";
 import EventSummary from "../../components/event-detail/event-summary";
 import EventLogistics from "../../components/event-detail/event-logistics";
 import EventContent from "../../components/event-detail/event-content";
@@ -13,14 +14,27 @@ function SingleEventDetailsPage(props) {
   const { event } = props;
   if (!event) {
     return (
-      <ErrorAlert>
-        <p>Loading...</p>
-      </ErrorAlert>
+      <Fragment>
+        <Head>
+          <title>Single event page</title>
+          <meta name="description" content={`Single event details page`} />
+        </Head>
+        <ErrorAlert>
+          <p>Loading...</p>
+        </ErrorAlert>
+      </Fragment>
     );
   }
 
   return (
     <Fragment>
+      <Head>
+        <title>Single event page</title>
+        <meta
+          name="description"
+          content={`Details of the event ${event.title}`}
+        />
+      </Head>
       <EventSummary title={event.title} />
       <EventLogistics
         date={event.date}
