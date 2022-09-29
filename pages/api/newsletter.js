@@ -14,6 +14,7 @@ async function handler(req, res) {
     try {
       client = await connectDatabase();
     } catch (error) {
+      console.log("database connection error", error);
       res.status(500).json({ message: "Connecting to the database failed!" });
       return;
     }
@@ -22,6 +23,7 @@ async function handler(req, res) {
       await insertDocument(client, "newsletter", { email: userEmail });
       client.close();
     } catch (error) {
+      console.log("database insertion error", error);
       res.status(500).json({ message: "Inserting data failed!" });
       return;
     }
